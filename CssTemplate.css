@@ -1,0 +1,22 @@
+body{
+	margin:0px;
+	padding: 0px;
+	background-color: #999999;
+
+}
+
+header{
+	background-color:#e6f0ff;
+}
+
+nav{
+	background-color: #999999;
+}
+
+section{
+	background-color: #ff80ff;
+}
+
+footer{
+	background-color:  #8585e0;
+}

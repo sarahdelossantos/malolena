@@ -1,0 +1,84 @@
+.food{
+	
+	background-size: cover;
+	height:400px;
+	font:white;
+	background-size:100% 100%;
+	repeat:no-repeat;
+}
+
+div.white{
+	background-color:#5481E6;
+	/*background-color:rgba(255, 102, 179,0.4);*/
+	height:380px;
+	z-index: 1;
+	margin-bottom: 5px;
+	
+}
+
+div.caption h6, div.caption h1, div.caption h4{
+	color:white;	
+
+}
+
+div.caption h4{
+	line-height: 20px;
+	color:	#07122c;
+}
+
+img.add-imgs{
+	height:200px;
+	width:100%;
+		
+}
+
+div.add-imgs{
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top:-10px;
+	padding:0px;
+	position:relative;
+	top:-25px;
+	
+	
+
+}
+div.add-imgs .col-md-12{
+background-color:#e6e6e6;
+z-index:-1;
+padding-bottom:10px;
+}
+
+.food-head{
+	margin:0px;
+	padding:0px;
+}
+
+div.container-fluid:nth-child(2){
+	margin:0px;
+	padding:0px;
+	position:relative;
+	top:-30px;
+	width:100%;
+}
+
+
+
+
+@media screen and (max-width: 970px) {
+	
+	
+	div.white{
+	background-color:#5481E6;
+	background-color:rgba(84, 129, 230,0.2);
+	height:380px;
+	z-index: 1;
+	margin-bottom: 5px;
+	
+}
+
+		div.white h4{
+
+				color:  #ccffff;
+		}
+}

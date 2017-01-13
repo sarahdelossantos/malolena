@@ -1,0 +1,411 @@
+body{
+	margin:0px;
+	padding: 0px;
+	/*background-color: #999999;*/
+	font-family: RobotoCondensed-Regular;
+	/*padding-bottom: 50px;*/
+
+	background-color: #f2f2f2;
+
+}
+
+@font-face {
+  font-family: 'RobotoCondensed-Light';
+  src:  url('RobotoCondensed-Light.ttf');
+      
+}
+
+@font-face {
+  font-family: 'RobotoCondensed-Regular';
+  src:  url('RobotoCondensed-Regular.ttf');
+      
+}
+
+
+/*header{
+	background-color:#e6f0ff;
+	height:100%;
+
+}*/
+
+nav{
+	background-color: black;
+
+}
+
+.navigation{
+	position: fixed;
+}
+section{
+	background-color: #ff80ff;
+
+}
+
+footer{
+	background-color:  #8585e0;
+
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.page-header{
+	/*background-image: url("images/banner.jpg");*/
+	
+	/*width: 100%;*/*/
+	/*background-color: hsla(0, 100%,90%,0.6)*/*/
+	background-size: cover;
+	margin:0px;
+	background-repeat: no-repeat;
+	/*padding-left: 100px;*/
+	/*z-index: 1;*/
+	text-align: center;
+	/*height:650px;*/
+	/*overflow: hidden;*/
+
+
+	}
+
+.imgHeader{
+	height:50%;
+	width: 100%;
+}	
+
+
+
+div.page-header > h1{
+	float:right;
+	display: block
+	background-color: black;
+	margin:0px;
+}
+
+
+
+.latest {
+	max-width: 100%;
+	
+	white-space: wrap;
+	 display: inline;
+	 float:left;
+	 padding: auto;
+	
+}
+
+.caption_sub > div.imgcenter{
+	 margin-top: auto;
+	 margin-bottom: auto;
+
+}
+
+.imgEat{
+	max-width: 80px;
+	height: auto;
+}
+
+/*---------FROM  BOOTSTRAP----*/
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.navbar-default {
+  background-color: black;
+  border-color: #e7e7e7;
+  color:red;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #03A9F4;
+  background-color: transparent;
+}
+
+.caption_sub {
+ /* padding-top: 8px;
+  padding-bottom: 8px;*/
+  margin-right: 15px;
+  margin-left: 15px;
+  color: #777;
+  text-align: left;
+  display: inline-block;
+  border-bottom: thin solid #999999;
+  /*height:200px;*/
+  /*overflow:hidden;*/
+  padding-left:0px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+   
+  
+}
+
+/*div.thumbnail > img{
+	background-color: blue;
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+
+div.thumbnail >div.caption>h3,div.thumbnail >div.caption>h5 {
+	background-color: blue;
+	margin: 0px
+}
+*/
+
+.thumbnail > .thumbnail {
+	padding:0px;
+	margin:0px;
+}
+
+
+div.info{
+
+	margin-left:10px;
+
+
+}
+
+.img-onright{
+	height: 150px;
+	/*overflow: hidden;*/
+}
+
+.thumbnail {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: none;
+  border-radius: 0px;
+  -webkit-transition: border .2s ease-in-out;
+-o-transition: border .2s ease-in-out;
+  transition: border .2s ease-in-out;
+
+}
+
+.thumbnail > img,
+.thumbnail a > img {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.thumbnail .caption {
+  padding: 9px;
+  color: #333;
+}
+
+
+.caption > h3{
+	padding-top: 0px;
+	margin-top: 0px;
+
+}
+
+.caption > p{
+
+}
+
+.wrapper{
+	background-color: blue;
+}
+
+div.thumbnail> div> h3{
+	text-align: center;
+	
+}
+
+div.caption_sub >div.caption> h3{
+	font-size: 20px;
+
+}
+div.caption_sub >div.caption> h4{
+	font-size: 15px;
+	color:#666666;
+	font-family: RobotoCondensed-Light;
+}
+
+.no-padding{
+	padding:0px;
+	margin:0px;
+}
+
+div.caption > h6{
+	color:#8c8c8c;
+}
+
+
+/*.row .page-header, {
+	margin:0px;
+}*/
+
+.container-fluid:nth-child(2) div.row{
+	/*margin:-20px;*/
+	padding:0px;
+	/*background-color: red;*/
+	position: relative;
+	
+
+}
+
+
+
+
+.col-md-5 .thumbnail:nth-child(1){
+	 background-color:white;
+	 border:none;
+	}
+
+.imgOnRight{
+	height:180px;
+	width:auto;
+}
+
+.navbar-default .navbar-nav > li > a{
+	color:white;
+}
+
+.fixed{
+	position: fixed;
+
+}
+
+
+@media screen and (max-width: 970px) {
+    body {
+      }
+
+      div.foot .row .cold-md-7 img{
+
+
+	}
+
+	div.foot .row .col-md-10 .row{
+		background-color:rgba(242, 242, 242,0.6);
+	}
+	
+     
+}
+
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 4px 10px -6px black;
+
+    /* the rest of your styling */
+}
+
+
+div.col-md-2 .caption h2{
+	color:black;
+}
+
+.title{
+	letter-spacing:5px;
+	
+	background-color:  #AAB7B8  ;
+	padding:10px;
+	font-size:20px;
+	color:#F2F4F4  ;
+	text-align: center;
+}
+
+.title h6{
+	font-weight: bold;
+
+}
+
+.buttoncolor{
+	background-color:white;
+	border-color:black;
+	color:black;
+	text-decoration: bold;
+
+}
+
+.center{
+	text-align:center;
+	color:black;
+
+}
+
+h4.address span{
+	color:#ff66b3;
+}
+
+
+.navbar-default .navbar-brand {
+  color: #ff1a8c;
+  font-size: 30px;
+}
+
+.foot{
+	padding:0px;
+	margin:0px;
+border-style: solid;
+    border-top: thin double #cccccc;
+    border-bottom:none;
+     border-left:none;
+      border-right:none;
+      margin-top: 10px;
+      background-image:url("images/barasoain.jpg");
+      background-size:contain;
+      height:500px;
+      margin-top: 50px;
+      background-repeat: no-repeat;
+
+}
+
+.foot .row{
+
+	padding:0px;
+	margin:0px;
+
+
+
+}
+
+.foote{
+	margin: 10px
+}
+
+div.foot .row .foote .col-md-6{
+	text-align:justify;
+	padding-left: 10px;
+	padding-top: 0px;
+}
+
+div.foot .row .cold-md-7 img{
+	width:100%;
+	height: auto;
+
+}
+
+.main{
+	padding: 0px;
+	margin:0px;
+}
+
+.main img{
+	padding: 0px;
+	margin:0px;
+}
